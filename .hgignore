@@ -1,0 +1,8 @@
+syntax: glob
+
+*.pyc
+data/*.log
+data/*rules.txt
+scaff/*
+test/*
+choose_iface.*
