@@ -1,0 +1,22 @@
+Related links:
+
+https://www.sphinx-doc.org/en/master/man/sphinx-apidoc.html
+
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+https://docs.python.org/3/tutorial/modules.html#packages
+
+https://docs.python-guide.org/writing/structure/
+
+https://python-packaging.readthedocs.io/en/latest/minimal.html
+
+https://realpython.com/python-application-layouts/
+
+https://packaging.python.org/
+
+https://packaging.python.org/tutorials/packaging-projects/
+
+https://www.python.org/dev/peps/pep-0440/
+
+https://test.pypi.org/
+
