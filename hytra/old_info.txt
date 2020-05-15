@@ -1,0 +1,16 @@
+
+Info inside docstring as of may 2020:
+	
+Project: Slatt
+Package: hypergraph - taken almost verbatim from mid 2007 implementation
+Programmers: JLB
+
+Purpose: implement hypergraphs, mainly the minimal transversal operation
+
+ToDo:
+.testing when hyperedges are actually slanodes
+.what happens when slanodes contain things beyond itemsets (trees, seqs...)
+.more careful programming of transversal, avoiding duplicate exploration
+.try algorithms A and B from Fredman-Khachiyan 
+(now it is following blindly the basic strategy there)
+
