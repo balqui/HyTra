@@ -1,5 +1,5 @@
 # HyTra
-__Hy__pergraph __Tra__nsversals: a project to study algorithms for computing the minimal transversals of a hypergraph or, equivalently, to dualize monotone Boolean functions. 
+**Hy**pergraph **Tra**nsversals: a project to study algorithms for computing the minimal transversals of a hypergraph or, equivalently, to dualize monotone Boolean functions. 
 
 Written in standard Python, initially Python 2, later adjusted to be compatible with both Python 2 and 3. Compatibility with Python 2 might be lost in the near future.
 
