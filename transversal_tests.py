@@ -1,6 +1,11 @@
 """
 If moved down to tests/, would NOT work anymore, 
-because hytra is not known in that directory
+because hytra is not known in that directory.
+
+How NOT to make up for that:
+- adding single dots before hytra raises "'__main__' is not a package"
+- adding double dots before hytra raises 
+    "attempted relative import beyond top-level package"
 """
 
 
