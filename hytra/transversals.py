@@ -2,7 +2,7 @@
 Must clean it up at some point
 """
 
-from hypergraph import HyperGraph as hypergraph
+from .hypergraph import HyperGraph as hypergraph
 
 class Transversals:
     """

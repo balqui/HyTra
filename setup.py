@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="HyTra", # Replace with your own username
-    version="0.0.1",
+    name="HyTra", 
+    version="0.0.2rc1",
     author="José Luis Balcázar",
     author_email="joseluisbalcazar@gmail.com",
     description="Hypergraph Transversals",
@@ -17,6 +17,8 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
+        "Development Status :: 3 - Alpha",
+        "Topic :: Scientific/Engineering :: Mathematics"
     ],
     python_requires='>=2.7',
 )

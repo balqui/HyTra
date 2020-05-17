@@ -14,9 +14,22 @@ https://realpython.com/python-application-layouts/
 
 https://packaging.python.org/
 
+https://packaging.python.org/guides/
+
 https://packaging.python.org/tutorials/packaging-projects/
 
 https://www.python.org/dev/peps/pep-0440/
 
 https://test.pypi.org/
 
+https://stackoverflow.com/questions/14132789/relative-imports-for-the-billionth-time
+
+https://www.python.org/dev/peps/pep-0366/
+
+
+https://stackoverflow.com/questions/12172791/changes-in-import-statement-python3
+includes:
+from .sister import foo
+from . import brother
+from ..aunt import bar
+from .. import uncle

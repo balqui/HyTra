@@ -1,14 +1,16 @@
 """
-Inside the hytra directory:
-DOES NOT WORK because transversals imports from .hypergraphs
+If moved down to tests/, would NOT work anymore, 
+because hytra is not known in that directory.
 
-Would work if it would import from hypergraphs instead,
-without the dot but, then, imports OUTSIDE this directory will fail
+How NOT to make up for that:
+- adding single dots before hytra raises "'__main__' is not a package"
+- adding double dots before hytra raises 
+    "attempted relative import beyond top-level package"
 """
 
 
-from hypergraph import HyperGraph as hypergraph
-from transversals import Transversals as T
+from hytra import HyperGraph as hypergraph
+from hytra import Transversals as T
 
 if __name__ == "__main__":
 	
