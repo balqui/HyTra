@@ -1,5 +1,5 @@
 # HyTra
-**Hy**pergraph **Tra**nsversals: a project to study, and to employ in applications, algorithms for computing the minimal transversals of a hypergraph or, equivalently, to dualize monotone Boolean functions. 
+**Hy**pergraph **Tra**nsversals: a project to study, and to employ in applications, algorithms for computing the minimal transversals of a hypergraph or, equivalently, to dualize monotone Boolean functions (or, equivalently, lots of things). Currently at version: 0.0.3 
 
 This project has _no connection whatsoever_ to the Python-based LISP dialect called Hy. Hypergraphs had their name well established looooong before the birth of that programming language. 
 

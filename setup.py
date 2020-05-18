@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="HyTra", 
-    version="0.0.2rc1",
+    version="0.0.3a1",
     author="José Luis Balcázar",
     author_email="joseluisbalcazar@gmail.com",
     description="Hypergraph Transversals",
