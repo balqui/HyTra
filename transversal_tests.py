@@ -11,34 +11,33 @@ How NOT to make up for that:
 
 from hytra import HyperGraph as hypergraph
 from hytra import Transversals as T
+from hytra import transv_zero
 
-if __name__ == "__main__":
-	
-    h = hypergraph()
+h = hypergraph()
 
-    h.added(set(['A']))
-    h.added(set(['B']))
+h.added(set(['A']))
+h.added(set(['B']))
 
-    h.added(set(['A','B']))
-    h.added(set(['B','C']))
-    h.added(set(['B','D']))
-    h.added(set(['C','D']))
+h.added(set(['A','B']))
+h.added(set(['B','C']))
+h.added(set(['B','D']))
+h.added(set(['C','D']))
 
-    h.added(set(['A','B','C']))
-    h.added(set(['B','C','D']))
-    print(h.hyedges)
-
-
-    t = hypergraph()
-    a = T()
-    t = a.transv_z(h)
-    print(t.hyedges)
+h.added(set(['A','B','C']))
+h.added(set(['B','C','D']))
+print(h.hyedges)
 
 
-    h = hypergraph(set(['1','2']),[set('1'),set('2')])
-    print(h.hyedges)
+t = hypergraph()
+a = T()
+t = a.transv_z(h)
+print(t.hyedges)
 
-    t = hypergraph()
-    t = a.transv_z(h)
-    print(t.hyedges)
+
+h = hypergraph(set(['1','2']),[set('1'),set('2')])
+print(h.hyedges)
+
+t = hypergraph()
+t = a.transv_z(h)
+print(t.hyedges)
 
