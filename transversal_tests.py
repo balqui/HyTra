@@ -33,6 +33,8 @@ a = T()
 t = a.transv_z(h)
 print(t.hyedges)
 
+t = transv_zero(h)
+print(t.hyedges)
 
 h = hypergraph(set(['1','2']),[set('1'),set('2')])
 print(h.hyedges)
@@ -41,3 +43,5 @@ t = hypergraph()
 t = a.transv_z(h)
 print(t.hyedges)
 
+t = transv_zero(h)
+print(t.hyedges)
