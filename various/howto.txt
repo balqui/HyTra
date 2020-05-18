@@ -1,18 +1,26 @@
 
 1/ Commit and push while keeping old version numbers.
-2/ Update version number in 
+2/ Review pending heads and bookmarks.
+3/ If necessary, merge and make sure which head is active.
+4/ Update version number in 
  - README.md, 
  - inside the s/w, 
  - setup.py,
  - anywhere else, 
  BUT don't commit yet.
-3/ Create bookmark with version number.
-4/ Commit including version number.
-5/ Push.
-6/ Move  dist/* to earlier/
-7/ Ensure latest versions of pip, twine, setuptools, wheel
-8/ Run: python3 setup.py sdist bdist_wheel
-9/ Log in to pypi.org.
-10/ Create API token and copy it.
-11/ Run (and don't forget the asterisk): twine upload dist/*
-12/ Try pip install maybe with --upgrade and check everything out
+5/ Create bookmark with version number.
+6/ Commit including version number.
+7/ Push.
+8/ Move  dist/* to earlier/
+9/ Ensure latest versions of pip, twine, setuptools, wheel
+10/ Run: python3 setup.py sdist bdist_wheel
+11/ Check out dist/.
+12/ Log in to pypi.org.
+13/ Create API token and copy it.
+14/ Run (and don't forget the asterisk): twine upload dist/*
+15/ Answer __token__ and value of the token.
+16/ Try pip install --upgrade hytra (maybe with sudo).
+17/ Check everything out: python3, then from hytra import HyperGraph etc.
+18/ Run: hg update master (so that future advances get back to main line)
+
+
