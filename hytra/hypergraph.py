@@ -1,4 +1,9 @@
 """
+By 2020 almost as inherited from earlier projects and dating from 2007;
+now transv and _newtransv moved to separate module transversals.py
+
+At some point should inherit from list and BE (as opposed to "have")
+a list of hyperedges; consider also whether list or set is appropriate.
 """
 
 class HyperGraph:
@@ -6,7 +11,6 @@ class HyperGraph:
     operations on hypergraphs: 
     each has a carrier (set of vertices) 
     and a list of hyperedges
-    (transv and _newtransv moved to separate class)
     """
 
     def __init__(self, c=set([]), l = []):
@@ -15,7 +19,7 @@ class HyperGraph:
         self.hyedges = [ e.copy() for e in l ]
         
     def addel(self,elem):
-        "add one element to all the hyperedges"
+        "add one element to all the hyperedges - did we EVER use this function?"
         self.carrier.add(elem)
         for e in self.hyedges:
             e.add(elem)
@@ -27,7 +31,7 @@ class HyperGraph:
         self.hyedges.append(ed)
 
     def addhg(self,another):
-        "union of two hypergraphs into the first one"
+        "union of two hypergraphs into the first one - did we EVER use this function?"
         for e in another.hyedges:
             self.added(e)
 
@@ -85,7 +89,7 @@ class HyperGraph:
         self.hyedges = sieve
 
     def rmdups(self):
-        "remove duplicate edges - sometimes they creep in"
+        "remove duplicate edges - sometimes they creep in - REALLY?"
         nodups = []
         for e in self.hyedges:
             if not e in nodups:
